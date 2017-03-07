@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #contenedor {
   position: static;
 }
@@ -5,4 +6,29 @@
   position: relative;
   right: -20%;
   bottom: -20%;"
+=======
+body {
+    background-color: white;
+}
+
+@media screen and (max-width: 960px) and (min-width: 768px) {
+    body {
+        background-color: blue;
+    }
+}
+@media screen and (max-width: 768px) and (min-width: 550px) {
+    body {
+        background-color: red;
+    }
+}
+@media screen and (max-width: 550px) and (max-width: 320px)  {
+    body {
+        background-color: green;
+    }
+}
+@media screen and (max-width: 320px) {
+    body {
+        background-color: yellow;
+    }
+>>>>>>> a116f5c1cec9534d87e9b99f593c7ea81919c08b
 }

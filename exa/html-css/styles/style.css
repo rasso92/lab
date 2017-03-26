@@ -1,3 +1,8 @@
+html, body{
+  width: 979px;
+  height: 100%;
+  margin: 0 auto;
+}
 h1,h2{
   color: black;
 }
@@ -11,15 +16,13 @@ h5{
 h6{
   color: red;
 }
-li {
-    display: inline;
+.wrapper {
+  min-height: 100%;
+  margin-bottom: -50px;
 }
-#banner{
-  width: 95%;
-  height: 20%;
-  text-align: center;
-  margin: 5%;
-  padding: 1;
+.footer,
+.push {
+  height: 50px;
 }
 #model {
   background-color: orange;

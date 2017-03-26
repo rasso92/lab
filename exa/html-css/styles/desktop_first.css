@@ -1,0 +1,19 @@
+@media (max-width: 979px) {
+  #banner{
+    width: 990px;
+    height: 340px
+  }
+  li + li{
+      display: inline;
+      border-left: 1px solid #000000
+  }
+
+}
+
+@media (max-width: 767px) {
+    /* Selectors and styles affecting screens UP TO 767px (Tablet) */
+}
+
+@media (max-width: 480px) {
+    /* Selectors and styles affecting screens UP TO 480px (Phone) */
+}

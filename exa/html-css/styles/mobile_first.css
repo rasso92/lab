@@ -1,0 +1,11 @@
+@media (min-width: 767px) {
+    /* Selectors and styles affecting screens WIDER THAN 767px (Tablet) */
+}
+
+@media (min-width: 979px) {
+  /* Selectors and styles affecting screens WIDER THAN 979px (Desktop) */
+}
+
+@media (min-width: 1200px) {
+    /* Selectors and styles affecting screens WIDER THAN 1200px (Large Desktop) */
+}

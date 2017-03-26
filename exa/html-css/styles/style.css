@@ -1,0 +1,30 @@
+h1,h2{
+  color: black;
+}
+h3, h4 {
+  color : blue;
+}
+h5{
+  color: green;
+}
+
+h6{
+  color: red;
+}
+li {
+    display: inline;
+}
+#banner{
+  width: 95%;
+  height: 20%;
+  text-align: center;
+  margin: 5%;
+  padding: 1;
+}
+#model {
+  background-color: orange;
+  width: 25%;
+  border: 2px solid black;
+  padding: 1%;
+  margin: 1%;
+}

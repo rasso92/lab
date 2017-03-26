@@ -1,0 +1,52 @@
+@media print {
+
+  #banner{
+    display: none;
+  }
+  h1{
+    float: left;
+    margin: 0 auto;
+  }
+  ul {
+      display: none;
+  }
+
+
+  li {
+    display: none;
+  }
+
+  #navFooter{
+    display: none;
+  }
+  #firstSection{
+    float: none;
+    width: auto;
+    padding: 1%;
+    margin: 1%;
+  }
+  #secondSection{
+    float: none;
+    width: auto;
+    padding: 1%;
+    margin: 1%;
+  }
+  #thirdSection{
+    float: none;
+    width: auto;
+    padding: 1%;
+    margin: 1%;
+  }
+  #estudiantes{
+    display: none;
+  }
+  #profesor{
+    display: none;
+  }
+  #model {
+    background-color: none;
+    width: 100%;
+    border: 0px;
+  }
+
+}

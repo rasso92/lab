@@ -1,7 +1,66 @@
-@media (min-width: 767px) {
+@import url('style.css');
+@media (min-width: 350px) {
+  html{
+    width: 375px;
+  }
+  #banner{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 1%;
+  }
+  h1{
+    float: left;
+    width: 100%;
+  }
+  ul {
+      width: 100%;
+      margin: 0 auto;
+      float: none;
+      list-style-type: none;
+      padding: 0;
+      overflow: hidden;
+      margin-bottom: 1%;
+  }
+
+
+  li {
+    background-color: gray;
+      float: none;
+  }
+
+
+  li a {
+
+      display: block;
+      text-align: center;
+      padding: 5px 5px;
+      text-decoration: none;
+  }
+  #navFooter{
+    display: none;
+  }
+  #firstSection{
+    float: none;
+    width: auto;
+    padding: 1%;
+    margin: 1%;
+  }
+  #secondSection{
+    float: none;
+    width: auto;
+    padding: 1%;
+    margin: 1%;
+  }
+  #thirdSection{
+    float: none;
+    width: auto;
+    padding: 1%;
+    margin: 1%;
+  }
     /* Selectors and styles affecting screens WIDER THAN 767px (Tablet) */
 }
-
 @media (min-width: 979px) {
   /* Selectors and styles affecting screens WIDER THAN 979px (Desktop) */
 }

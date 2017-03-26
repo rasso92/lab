@@ -32,8 +32,19 @@ text-align: center;
 }
 #model {
   background-color: orange;
-  width: 25%;
+  width: 95%
   border: 2px solid black;
   padding: 1%;
   margin: 1%;
+}
+#estudiantes{
+  width: 100%;
+  height: 100%;
+}
+#profesor{
+  width: 100%;
+  height: 100%;
+}
+#copyRight{
+  float: left;
 }

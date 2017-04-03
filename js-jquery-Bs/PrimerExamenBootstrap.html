@@ -4,40 +4,28 @@
         <title>html-css</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link id="css" rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link id="css" rel="stylesheet" type="text/css" href="../js-jquery-Bs/css/bootstrap.min.css">
 
 
     </head>
     <body>
         <div id="container">
-
-
             <header>
-
                 <nav class="navbar navbar-default">
                     <div class="container-fluid">
-                        <!-- Brand and toggle get grouped for better mobile display -->
                         <div class="navbar-header">
                             <h1 class="navbar-brand">UNA Web [ Estudiante ]</h1>
 
                         </div>
-
                         <ul class="nav navbar-nav navbar-right">
                             <li> <a href="#">Home</a></li>
                             <li><a href="#"> About</a> </li>
                             <li> <a href="#">Courses</a></li>
                             <li> <a href="#">Contact</a></li>
-                            <li> <a href="index.html">Index</a></li>
-
                         </ul>
                     </div>
                 </nav>
             </header>
-            <ol class="breadcrumb">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">next</a></li>
-
-            </ol>
             <div class="col-md-12">
 
                 <div class="row carousel-holder">
@@ -51,12 +39,8 @@
                             </ol>
                             <div class="carousel-inner">
                                 <div class="item active">
-                                    <img class="slide-image" src="image/mainImage.jpg" alt="" >
+                                    <img id="banner" class="img-responsive" src="../js-jquery-Bs/image/una_logo.gif" alt="Logo UNA" >
                                 </div>
-                                <div class="item">
-                                    <img class="slide-image" src="image/mainImage2.jpg" alt="" >
-                                </div>
-
                             </div>
                             <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
                                 <span class="glyphicon glyphicon-chevron-left"></span>
@@ -96,7 +80,7 @@
                         A paragragh of text with an inassigned link.
                         A second row of text with a web linl.
                       </div>
-                        <img id="estudiantes" src="../html-css/images/estudiantes.jpg" alt="Logo UNA" >
+                        <img id="estudiantes" class="img-responsive" src="../js-jquery-Bs/image/estudiantes.jpg"  alt="Logo UNA" >
                       <p>Etiam faucibus sed magna a gravida. Ut quis augue gravida, fringilla libero sit amet, volutpat purus. Nulla laoreet turpis at
                         nisl hendrerit blandit. Integer ac neque eget turpis facilisis mattis. Sed auctor sed libero eu gravida. Morbi non pharetra erat,
                         non ornare risus. Donec nec porta quam.</p>
@@ -124,7 +108,7 @@
                       ultrices quis lorem varius, fringilla euismod dolor. In consequat vehicula rhoncus. Etiam nec porttitor enim. Cras semper porttitor
                       justo at tincidunt. Pellentesque interdum dignissim felis in iaculis. Vestibulum lacinia, felis eu euismod viverra, metus libero
                       euismod velit, non convallis erat libero ut odio.</p>
-                      <img id="profesor" src="../html-css/images/profesor.jpg" alt="Logo UNA" >
+                      <img id="profesor" class="img-responsive" src="../js-jquery-Bs/image/profesor.jpg" alt="Logo UNA" >
                   </article>
                   <article >
                     <h6>Sub-Sub-Sub-section</h6>
@@ -155,10 +139,9 @@
                 </div>
             </footer>
         </div>
-        <script src="js/jquery-3.2.0.min.js"></script>
-
-
-        <script src="js/bootstrap.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous"></script>
+        <script src="../js-jquery-Bs/js/bootstrap.min.js"></script>
 
     </body>
 </html>

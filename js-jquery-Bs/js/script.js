@@ -32,7 +32,7 @@ $("#changeSelector").click(
 
         }
 );
-("#childSelector").click(
+$("#childSelector").click(
         function () {
             var texto =  $("form > button").text();
             mostrarResultado(texto, "childSelector");

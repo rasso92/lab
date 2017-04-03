@@ -46,6 +46,20 @@ var mostrarResultado = function (texto, estilo) {
     textarea.addClass(estilo);
 
 };
+
+usuario.prototype.presentarse = function () {
+    var respuesta = "Hola, mi nombre es " + this.nombre + "  y tengo " + this.anio + " años";
+    return respuesta;
+};
+var implementaUsuario = function () {
+    var name = $('#name').val();
+    var fecha = $('#fecha_nacimiento').val();
+    var usr = new usuario(name, fecha);
+    usr.calcularEdad();
+    mostrarResultado(usr.presentarse(), "presentacion");
+
+};
+
 function usuario(Nombre, Fecha) {
     this.fecha = Fecha;
     this.nombre = Nombre;
@@ -95,15 +109,3 @@ function usuario(Nombre, Fecha) {
 
 
 }
-usuario.prototype.presentarse = function () {
-    var respuesta = "Hola, mi nombre es " + this.nombre + "  y tengo " + this.anio + " años";
-    return respuesta;
-};
-var implementaUsuario = function () {
-    var name = $('#name').val();
-    var fecha = $('#fecha_nacimiento').val();
-    var usr = new usuario(name, fecha);
-    usr.calcularEdad();
-    mostrarResultado(usr.presentarse(), "presentacion");
-
-};
